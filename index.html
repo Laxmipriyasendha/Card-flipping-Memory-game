@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <link rel="stylesheet" href="style.css">
+
+    <title> Memory Game </title>
+    <link rel="icon" type="image/x-icon" href="./assests/gameicon.png">
+</head>
+<body>
+   
+      <h1>Card-flipping Memory Game</h1> 
+        <div class="topTools">            
+            <div class="time">
+                <span class="minute">00</span>
+                <span>:</span>
+                <span class="second">00</span>
+             </div>
+            <span class="refresh"><img src="./assests/refresh.svg" alt="refreshImage"></i></span>
+        </div> 
+
+    <section class="memory-game">    
+        <div class="memory-card" data-id="1"> 
+            <img class="front-face" src="Assests/elephant.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="1">
+            <img class="front-face" src="./Assests/elephant.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="2">
+            <img class="front-face" src="./assests/giraffe.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="2">
+            <img class="front-face" src="./assests/giraffe.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="3">
+            <img class="front-face" src="./assests/lion.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="3">
+            <img class="front-face" src="./assests/lion.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="4">
+            <img class="front-face" src="./assests/turtle.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="4">
+            <img class="front-face" src="./assests/turtle.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="5">
+            <img class="front-face" src="./assests/whale.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="5">
+            <img class="front-face" src="./assests/whale.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="6">
+            <img class="front-face" src="./assests/zebra.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+        <div class="memory-card" data-id="6">
+            <img class="front-face" src="./assests/zebra.png" alt="Front image">
+            <div class="back-face"></div>
+        </div>
+    </section>
+
+    
+    <section id="congratsSection" class="hidden">   
+        <div id="congratsDiv">
+            <img src="./assests/congrats.jpg" alt="congratsImage">
+            <p class="final">
+                <span id="totalTime"></span>
+            </p>
+            <br>
+            <p>
+                <a class="again">Play Again</a>
+            </p>
+        </div>
+    </section>
+
+   <script src="script.js"></script>
+</body>
+</html>
